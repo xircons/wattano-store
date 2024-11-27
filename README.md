@@ -1,0 +1,1 @@
+# wattano-store
