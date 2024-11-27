@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi HTML</title>
+</head>
+<style>
+    body{
+    background: #e7e7e7;
+    height: 100vh;
+}
+h3{
+    text-align: center;
+    color: #413b3b;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 80px;
+}
+h5{
+    text-align: center;
+    color: #413b3b;
+    margin: 80px auto;
+    font-size: 20px;
+    width: 50%;
+    line-height: 1.7;
+}
+.box{
+    text-align: center;
+    bottom: 1000px;
+}
+.button{
+    font-size: 1em;
+    padding: 15px 35px;
+    color: #413b3b;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    background: #300011;
+    border-radius: 50px;
+}
+.overlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+.overlay.target{
+    visibility: visible;
+    opacity: 1;
+}
+.wrapper{
+    margin: 70px auto;
+    padding: 20px;
+    background: #e7e7e7;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+.wrapper h2{
+    margin-top: 0;
+    color: #333;
+}
+.wrapper .close{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #333;
+}
+.wrapper .ct{
+    max-height: 30%;
+    overflow: auto;
+}
+.ctn{
+    border-radius: 5px;
+    background-color: #e7e7e7;
+    padding: 20px 0;
+}
+form label{
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+input[type=text], textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+</style>
+<body>
+
+    <div class="box">
+        <a href="#divOne" class="button">hi</a>
+    </div>
+
+        <div class="overlay" id="divOne">
+            <div class="wrapper">
+                <h2>ข้อมูลสำหรับการจัดส่ง</h2>
+                <a href="#" class="close">&times;</a>
+                <div class="ct">
+                    <div class="ctn">
+                        <form>
+                    <label>ชื่อ</label>
+                    <input type="text" placeholder="ชื่อ">
+                    <label>นามสกุล</label>
+                    <input type="text" placeholder="นามสกุล">
+                    <label>เบอร์โทรศัพท์</label>
+                    <input type="text" placeholder="เบอร์โทรศัพท์">
+                    <label>ที่อยู่</label>
+                    <input type="text" placeholder="ที่อยู่">
+                    <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</body>
+</html>

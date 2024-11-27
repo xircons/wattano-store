@@ -1,0 +1,237 @@
+.headcarttext{
+    font-family: 'Kanit', sans-serif;
+    padding-left: 12%;
+    margin-top: 2%;
+}
+.headcarttext h1{
+    font-size: 26px;
+    font-weight: 600;
+    color: #212121;
+    display: inline-block;
+}
+.headcart{
+    font-family: 'Kanit', sans-serif;
+    position: relative;
+    left: 12%;
+    width: 1180px;
+    height: 60px;
+    border-radius: 15px;
+    border: 1px solid#cccccc;
+    background-color: #f5f5f5;
+}
+.headcart h1{
+    font-weight: 500;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    top: -5px;
+    padding-left: 15%;
+}
+.headcart h2{
+    font-weight: 500;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    top: -5px;
+    padding-left: 34%;
+}
+.headcart h3{
+    font-weight: 500;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    top: -5px;
+    padding-left: 16%;
+}
+.cartimg{
+    position: relative;
+    margin-left: 13%;
+    margin-top: 25px;
+    width: 110px;
+    height: 110px;
+    border-radius: 15px;
+}
+.cartproduct{
+    font-family: 'Kanit', sans-serif;
+}
+.cartproduct h1{
+    font-size: 18px;
+    font-weight: 300;
+    position: relative;
+    margin-left: 2%;
+    top: -50px;
+    width: 350px;
+    word-wrap:break-word;
+    display: inline-block;
+}
+.cartproduct h2{
+    font-size: 28px;
+    font-weight: 500;
+    position: relative;
+    margin-left: 6%;
+    top: -50px;
+    display: inline-block;
+}
+.cartproduct h3{
+    font-size: 22px;
+    font-weight: 300;
+    position: relative;
+    left: 212px;
+    top: -90px;
+    text-align: center;
+    margin: -1%;
+}
+.cartproduct h4{
+    position: relative;
+    left: 1140px;
+    top: -101px;
+    margin: -1%;
+}
+.cartproduct h5{
+    position: relative;
+    left: 1240px;
+    top: -84px;
+    margin: -2%;
+}
+.cartproduct h6{
+    position: relative;
+    left: 1300px;
+    top: -65px;
+    text-align: center;
+    margin: 0%;
+}
+.bar{
+    background-color:#cccccc;
+    position: relative;
+    top: -10px;
+    left: 12%;
+    width: 1180px;
+    height: 1px;
+}
+.bill{
+    font-family: 'Kanit', sans-serif;
+    position: absolute;
+    width: 300px;
+    height: 313px;
+    left: 1450px;
+    top: 225px;
+    border-radius: 15px;
+    border: 1px solid#cccccc;
+    background-color: #fafafa;
+}
+.bill h1{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+.leftbill{
+    font-family: 'Kanit', sans-serif;
+    position: absolute;
+    left: 1450px;
+    top: 290px;
+}
+.leftbill h1{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+}
+.leftbill h2{
+    position: relative;
+    margin-left: 20px;
+    top: -15px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.rightbill{
+    font-family: 'Kanit', sans-serif;
+    position: absolute;
+    left: 1670px;
+    top: 290px;
+}
+.rightbill h1{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    display: inline-block;
+}
+.rightbill h2{
+    text-align: right;
+    position: relative;
+    margin-left: 20px;
+    top: -15px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+.price{
+    position: relative;
+    width: 300px;
+    height: 70px;
+    background-color: #ececec;
+    top: 105px;
+}
+.price h1{
+    position: relative;
+    margin-left: 20px;
+    top: -12px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+}
+.price h2{
+    position: relative;
+    margin-left: 20px;
+    top: -33px;
+    font-size: 13px;
+    font-weight: 300;
+    color: #868585;
+}
+.price h3{
+    position: relative;
+    margin-left: 210px;
+    top: -114px;
+    font-size: 28px;
+    font-weight: 500;
+    display: inline-block;
+    color: rgba(10,158,240);
+}
+.custom-btn-buy{
+    font-family: 'Kanit', sans-serif;
+    font-weight:500;
+    width: 275px;
+    height: 40px;
+    background: rgba(10,158,240);
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all , 0.5s;
+    margin-top: 0px;
+}
+.adjustbutton{
+    position: relative;
+    top: 117px;
+    padding-left: 13px;
+}
+.disabled {
+    opacity: 0.3;
+    pointer-events: none;
+    cursor: not-allowed;
+}
+.adjustbutton-dis{
+    position: relative;
+    top: 115px;
+    padding-left: 13px;
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+  }

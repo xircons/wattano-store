@@ -1,0 +1,10 @@
+<?php
+session_start();
+    unset($_SESSION["password"]);
+    unset($_SESSION["intLine"]);
+    unset($_SESSION["strProductID"]);
+    unset($_SESSION["strQty"]);
+    unset($_SESSION["price"]);
+header("location:login.php");
+exit();
+?>

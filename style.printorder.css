@@ -1,0 +1,76 @@
+body {
+    font-family: 'Trirong', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    background-color: #f8f8f8;
+}
+
+.head, .x {
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.head h1 {
+    padding-top: 50px;
+    margin: 0;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.head h2 {
+    margin: 5px 0;
+    color: #000;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.x h1, .x h2 {
+    margin: 5px 0;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline;
+}
+
+.table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    color: #000;
+}
+
+.table th {
+    background-color: #f5f5f5;
+}
+
+.btn {
+    background-color: #000;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #333;
+}
+h6{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+.button{
+    text-align: center;
+}
